@@ -1,4 +1,8 @@
 $(function() {
-    $("#").click();
+    $("#home").click(movePage);
 
 });
+
+function movePage() {
+    
+}
