@@ -1,8 +1,4 @@
 $(function() {
-    $("#home").click(movePage);
+    $("a").fadeMover();
 
 });
-
-function movePage() {
-    
-}
