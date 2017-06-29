@@ -1,4 +1,4 @@
 $(function() {
-    $("body").fadeMover();
+    $('body').fadeMover();
 
 });
