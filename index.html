@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-    <script src="js/animatescroll.js"></script>
-    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/animatescroll.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
     <div id="Menu">
@@ -21,18 +21,40 @@
     <contein>
         <a href="#" class="ui-button ui-widget ui-corner-all" onclick="$('#Menu').animatescroll();">Home</a>
         <a href="https://docs.google.com/spreadsheets/d/1a68in1tFQ4AO4ECqJcyuJC8v0BZGOsDIVN8i87huPFE/edit#gid=273457256" class="ui-button ui-widget ui-corner-all" target="_blank">Calendar</a>
+        <a href="#" class="ui-button ui-widget ui-corner-all" onclick="$('#About_Me').animatescroll();">About Me</a>
         <a href="#" class="ui-button ui-widget ui-corner-all" onclick="$('#Link').animatescroll();">Link</a>
     </contein>
+    <footer>
+    </footer>
     </div>
-    
+
+    <hr>
+
+    <div id="About_Me">
+    <header>
+        <h1>About Me</h1>
+    </header>
+    <contein>
+        <a href="#" id="test">test</a>
+    </contein>
+    <footer>
+        <a href="#" onclick="$('#Menu').animatescroll();">Go Top</a>
+    </footer>
+    </div>
+
+    <hr>
+
     <div id="Link">
     <header>
-        <hr>
+        <h1>Link</h1>
     </header>
     <content>
         <li><a href="http://twitter.com" target="_blank">Twitter</a></li>
         <li><a href="http://www3.jeed.or.jp/osaka/college/" target="_blank">近畿職業能力開発大学校</a></li>
     </content>
+    <footer>
+        <a href="#" onclick="$('#Menu').animatescroll();">Go Top</a>
+    </footer>
     </div>
 
 </body>
