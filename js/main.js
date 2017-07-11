@@ -1,3 +1,4 @@
+/*
 $(function() {
     $('#test').click(test);
 });
@@ -5,3 +6,4 @@ $(function() {
 function test() {
     alert("test comp");
 };
+*/
