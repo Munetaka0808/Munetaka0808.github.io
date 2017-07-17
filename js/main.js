@@ -1,7 +1,6 @@
 $(function() {
     $("#test").click(test);
     $("#omikuji").click(omikuji);
-    $("#resultOmikuji").hide();
 });
 
 function test() {
