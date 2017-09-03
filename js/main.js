@@ -40,13 +40,12 @@ function omikuji() {
     }
 }
 
-Vue.component('todo-list', {
+Vue.component('todo-item', {
   props: ['todo'],
   template: '<li>{{ todo.text }}</li>'
 })
-
-var todos = new Vue({
-  el: '#todos',
+var app7 = new Vue({
+  el: '#app-7',
   data: {
     groceryList: [
       { id: 0, text: 'Vegetables' },
