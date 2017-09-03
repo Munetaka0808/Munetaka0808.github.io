@@ -1,12 +1,7 @@
 $(function() {
     $("#test").click(test);
     $("#omikuji").click(omikuji);
-    var app = new Vue({
-      el: '#app',
-      data: {
-        message: 'Hello My Page!'
-      }
-    })
+
 });
 
 function test() {
