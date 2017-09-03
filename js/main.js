@@ -40,6 +40,23 @@ function omikuji() {
     }
 }
 
+Vue.component('todo-list', {
+  props: ['todo'],
+  template: '<li>{{ todo.text }}</li>'
+})
+
+var todos = new Vue({
+  el: '#todos',
+  data: {
+    groceryList: [
+      { id: 0, text: 'Vegetables' },
+      { id: 1, text: 'Cheese' },
+      { id: 2, text: 'Whatever else humans are supposed to eat' }
+    ]
+  }
+})
+
+
 /* ---------- Other Function ---------- */
 
 function rand(min, max) {
