@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Munetaka0808 Main Page</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>My first Vue app</title>
     <script src="https://unpkg.com/vue"></script>
-    <script type="text/javascript" src="js/tovue.js"></script>
+    <script src="js/tovue.js></script>
 </head>
 <body>
     <div id="app">
         {{ message }}
     </div>
+
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello Vue!'
+            }
+        })
+    </script>
 </body>
 </html>
