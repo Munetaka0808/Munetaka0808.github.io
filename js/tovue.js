@@ -1,5 +1,5 @@
 var app = new Vue({
-    el: '#app',
+    el: '#mes',
     data: {
     message: 'Hello Vue Playground!'
     }
