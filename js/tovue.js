@@ -1,9 +1,9 @@
-var app = new Vue({
-    el: '#mes',
-    data: {
-        message: 'Thank you for visiting my page on ' + new Date().toLocaleString()
-    }
-})
+//var app = new Vue({
+//    el: '#mes',
+//    data: {
+//        message: 'Thank you for visiting my page on ' + new Date().toLocaleString()
+//    }
+//})
 
 // Full spec-compliant TodoMVC with localStorage persistence
 // and hash-based routing in ~120 effective lines of JavaScript.
