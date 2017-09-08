@@ -18,7 +18,9 @@
                    v-model="newTodo" @keyup.enter="addTodo">
         </header>
         <section class="main">
-            <todo-item v-for="item in groceryList" v-bind:todo="item"></todo-item>
+            <ul class="todo-list">
+                <todo-item v-for="item in groceryList" v-bind:todo="item"></todo-item>
+            </ul>
         </section>
     </section>
 </body>
