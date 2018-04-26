@@ -32,9 +32,9 @@ speech.addEventListener('result', function(e) {
       break;
     case "イベント":
       getEventData();
-      break;*/
+      break;
     default:
-      getTextContents(text);
+      getTextContents(text);*/
   }
   
 });
