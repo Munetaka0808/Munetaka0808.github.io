@@ -18,7 +18,10 @@ speech.addEventListener('result', function(e) {
   var text = e.results[0][0].transcript;
   
   switch(text) {
-    case "検索":
+      case "コグニザント"
+        window.location.href =　”https://gekiamabu-shinsotsusaiyo.amebaownd.com/”;
+        break;
+    /*case "検索":
       getSearch();
       break;
     case "ビデオ":
@@ -29,7 +32,7 @@ speech.addEventListener('result', function(e) {
       break;
     case "イベント":
       getEventData();
-      break;
+      break;*/
     default:
       getTextContents(text);
   }
