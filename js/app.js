@@ -19,7 +19,7 @@ speech.addEventListener('result', function(e) {
   
   switch(text) {
     case "コグニザント":
-        window.location.href =　'https://gekiamabu-shinsotsusaiyo.amebaownd.com/';
+        window.location.href =　'';
         break;
     /*case "検索":
       getSearch();
