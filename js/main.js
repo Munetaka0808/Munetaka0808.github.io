@@ -5,8 +5,7 @@ $(function() {
 });
 
 function test() {
-    boolean result = window.confirm('test confirm');
-    if (result == true) {
+    if (window.confirm('test confirm')) {
         alert("push OK");
     }
 };
