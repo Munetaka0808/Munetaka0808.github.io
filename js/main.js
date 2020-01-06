@@ -5,7 +5,10 @@ $(function() {
 });
 
 function test() {
-    alert("test comp");
+    ver result = window.confirm('test confirm');
+    if (result == true) {
+        alert("push OK");
+    }
 };
 
 function omikuji() {
